@@ -19,4 +19,4 @@ NBO — Novo Business Order. Public bilingual workflow-automation website.
 
 ## Current source
 
-The authoritative site is the root `index.html`. The old nested `nbo-website/` copy is retired.
+The root `index.html` is canonical for the next full deployment. The current Vercel production wrapper still fetches `nbo-website/index.html`, so keep that nested file synchronized until a replacement deployment is verified.
