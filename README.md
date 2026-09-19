@@ -1,17 +1,24 @@
 # NBO — Novo Business Order
 
-NBO is a bilingual workflow automation and operations-modernization company. This repository contains the current public NBO website.
+NBO is a bilingual business-operations modernization company serving Miami-Dade and remote U.S. service businesses.
 
-The present landing page is focused on bilingual intake workflows for Miami-Dade immigration law firms: first response, intake, scheduling, follow-up, ownership, and handoffs between the systems a firm already uses.
+The public offer is organized around four related services:
+
+- Digital Business Reset
+- Bilingual Customer Operations
+- AI Front Desk
+- CRM & Lead Recovery
+
+The positioning is outcome-first: reduce operational mess, missed leads, duplicated work and inconsistent English/Spanish customer handling. NBO works around client-owned systems where practical rather than forcing unnecessary software replacement.
 
 ## Current website
 
 - English / Spanish interface
 - Mobile and desktop responsive layout
-- Reduced-motion support
-- Clear human-control boundaries for legal work
-- 20-minute intake-review brief generator
+- Dark executive NBO visual system
 - Founder-led positioning
+- Business Reset Review brief generator
+- No fake booking, contact-success, testimonials or customer results
 - Static deployment with no customer data stored by the site
 
 ## Repository layout
@@ -20,7 +27,7 @@ The present landing page is focused on bilingual intake workflows for Miami-Dade
 
 `main` is the authoritative release branch.
 
-The previous generic starter-template identity is retired. This repository is now NBO.
+The nested `nbo-website/index.html` remains synchronized temporarily because the current production compatibility wrapper still fetches that path.
 
 ## Local preview
 
@@ -45,22 +52,13 @@ The build writes a deployable static site to `dist/`.
 
 Vercel project: `nbo-website`
 
-Current production alias:
-
-`https://nbo-website.vercel.app`
-
-The latest production deployment was verified as `READY` on September 18, 2026.
+Production alias: `https://nbo-website.vercel.app`
 
 ## Release rules
 
-- Keep NBO branding consistent. The public brand is **NBO — Novo Business Order**.
-- Do not revert this repository to the old generic client-project starter.
-- Do not invent client results, testimonials, integrations, certifications, or automation capabilities.
-- Legal judgment, eligibility, conflicts, engagement, and consequential legal communications remain human-controlled.
-- Do not add a fake booking or contact-success flow. Connect a real owner-approved destination before claiming a review was booked or a message was sent.
+- Keep the public brand **NBO — Novo Business Order**.
+- Preserve English/Spanish parity.
+- Do not invent client results, testimonials, integrations, certifications, contact success or booked appointments.
+- Do not sell technology for its own sake; the site must lead with the operating outcome.
+- Keep client accounts and tools client-owned where practical.
 - Keep `docs/STATUS.md` current.
-
-## Documentation
-
-- `docs/STATUS.md` — current release and cleanup state
-- `AGENTS.md` — concise operating rules for coding agents
