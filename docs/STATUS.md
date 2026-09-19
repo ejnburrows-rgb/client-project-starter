@@ -2,45 +2,40 @@
 
 **Brand:** NBO — Novo Business Order
 
+**Founder:** Emilio José Novo
+
 **Authoritative branch:** `main`
 
-**Canonical source for the next full deployment:** root `index.html`
+**Canonical source:** root `index.html`
 
 **Vercel project:** `nbo-website`
 
 **Production alias:** `https://nbo-website.vercel.app`
 
-## September 18, 2026 cleanup
+## September 19, 2026 service repositioning
 
-- Confirmed the NBO website commits are already on `main`.
-- Confirmed four recorded Vercel production deployments are `READY`.
-- Verified the production alias responds with HTTP 200.
-- Retired the generic starter-template README/package identity.
-- Normalized package identity to `nbo`.
-- Added deterministic static build and verification scripts.
-- Removed the runtime dependency on the Tucker Pool CRM repository for the NBO logo by using an inline NBO mark.
-- Kept the current immigration-law-firm landing-page positioning and bilingual copy intact.
+The previous immigration-law-firm-only landing page has been retired.
 
-## Temporary live compatibility path
+NBO is now positioned as a bilingual business-operations modernization service for owner-led service businesses, with four coherent offers:
 
-The currently deployed Vercel wrapper still fetches:
+1. **Digital Business Reset** — file/folder cleanup, operating structure, access/naming rules and SOPs.
+2. **Bilingual Customer Operations** — English/Spanish intake, estimates, FAQs, texts, email and customer-service scripts.
+3. **AI Front Desk** — approved bilingual call handling, lead capture/routing and appointment/FAQ flows with human control over sensitive judgment.
+4. **CRM & Lead Recovery** — data cleanup, pipeline ownership, missed-follow-up recovery and reactivation workflows.
 
-`nbo-website/index.html`
+The public value proposition is deliberately outcome-first: fewer missed leads, less searching, consistent bilingual service and automation with human control.
 
-directly from GitHub. For that reason, the nested file is preserved as a synchronized copy of the canonical root `index.html` until a new full Vercel deployment serves the root build directly.
+## Verified implementation
 
-Do **not** delete the nested compatibility copy until the replacement production deployment is verified.
+- Root `index.html` replaced with the new NBO positioning.
+- Temporary `nbo-website/index.html` compatibility copy synchronized byte-for-byte with root.
+- English/Spanish switching preserved.
+- Mobile responsive layout preserved.
+- Business Reset Review CTA copies a review brief; it does not fake submission or booking.
+- Local verification and static build passed before push.
 
-## Remaining naming cleanup
+## Remaining infrastructure cleanup
 
-The GitHub repository slug is still `client-project-starter`. Rename it to **NBO** (or `nbo` if GitHub normalizes the slug) when repository-settings or GitHub CLI write access is available.
-
-The Vercel project currently remains `nbo-website`; the public site brand is NBO.
-
-## Finish-line checks
-
-1. Rename the GitHub repository to NBO.
-2. Deploy the root NBO build to the existing Vercel project.
-3. Verify `https://nbo-website.vercel.app` after that deployment.
-4. Remove the nested compatibility copy only after step 3 succeeds.
-5. Connect a real owner-approved contact or scheduling destination before changing the review CTA into a submission/booking flow.
+- GitHub repository slug remains `client-project-starter`; rename to NBO when repository-settings write access is available.
+- The nested compatibility copy can be removed only after a full Vercel deployment serves the root build directly and the production alias is verified.
+- A real owner-approved contact or scheduling destination is still required before the review CTA can submit or book anything.
