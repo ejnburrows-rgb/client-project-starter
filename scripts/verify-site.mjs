@@ -13,7 +13,7 @@ const required = [
   'Workflow Reset',
   'Operations System Build',
   'Bilingual AI Operations Layer',
-  'href="demo.html"'
+  'href="?demo=1"'
 ];
 
 for (const marker of required) {
@@ -34,6 +34,8 @@ for (const marker of forbidden) {
 }
 
 console.log('NBO site verification passed.');
+
+if (!html.includes('nbo-demo-compat')) throw new Error('Missing wrapper-compatible demo loader');
 
 const demoRequired = ['<title>NBO Operations Demo</title>', 'Interactive demo', 'Sample data', 'Needs attention'];
 for (const marker of demoRequired) {
