@@ -34,7 +34,11 @@ The public value proposition is deliberately operations-first: less admin drag, 
 
 ## CRM infrastructure work
 
-A reusable NBO CRM core is being built from proven patterns extracted from Tucker Pool CRM, OTTO, and La Cartilla: offline/local resilience, bilingual UI, role/capability controls, deterministic Needs Attention, universal contacts/work/tasks/activity, unified file intake routing, import/export, and client-specific adapters.
+The reusable NBO CRM core is now implemented privately in `ejnburrows-rgb/Command-Center-` under `blueprints/nbo-crm-core`, with an authenticated Command Center reference copy under `public/crm-core/index.html`.
+
+It combines proven patterns extracted from Tucker Pool CRM, OTTO, and La Cartilla: offline/local resilience, bilingual UI, role/capability controls, deterministic Needs Attention, universal contacts/work/tasks/activity, unified file intake routing, JSON backup/restore, NBO Growth Center, and a storage/integration boundary for client-specific adapters.
+
+The public NBO site now includes a concrete **Systems** section describing unified file intake, role-based operations CRM, and the bilingual content engine without claiming fabricated customer results.
 
 ## Remaining infrastructure cleanup
 
