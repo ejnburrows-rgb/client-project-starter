@@ -2,14 +2,14 @@
 
 NBO is a bilingual business-operations modernization company serving Miami-Dade and remote U.S. service businesses.
 
-The public offer is organized around four related services:
+The public offer is organized around four related operating-system services:
 
-- Digital Business Reset
+- Workflow Modernization
+- Custom CRM + Operations Hub
 - Bilingual Customer Operations
-- AI Front Desk
-- CRM & Lead Recovery
+- Practical AI + Content Automation
 
-The positioning is outcome-first: reduce operational mess, missed leads, duplicated work and inconsistent English/Spanish customer handling. NBO works around client-owned systems where practical rather than forcing unnecessary software replacement.
+The positioning is outcome-first: reduce administrative drag, connect scattered work, create one visible operating truth, and make English/Spanish execution consistent. NBO works around client-owned systems where practical rather than forcing unnecessary software replacement. AI is used for bounded work such as document extraction, summaries, drafting, QA, and human-reviewed bilingual content repurposing.
 
 ## Current website
 
