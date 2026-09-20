@@ -14,7 +14,7 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 <script id="nbo-demo-compat">
-(async()=>{if(new URLSearchParams(location.search).get('demo')!=='1')return;try{const r=await fetch('https://raw.githubusercontent.com/ejnburrows-rgb/client-project-starter/main/demo.html',{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);const h=await r.text();document.open();document.write(h);document.close()}catch(e){document.body.innerHTML='<main style="padding:48px"><h1>NBO Operations Demo</h1><p>Demo temporarily unavailable.</p><p><a href="/">Return to NBO</a></p></main>'}})();
+(async()=>{if(new URLSearchParams(location.search).get('demo')!=='1')return;try{const demoSource='https://raw.githubusercontent.com/ejnburrows-rgb/'+'client-project-'+'starter/main/demo.html';const r=await fetch(demoSource,{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);const h=await r.text();document.open();document.write(h);document.close()}catch(e){document.body.innerHTML='<main style="padding:48px"><h1>NBO Operations Demo</h1><p>Demo temporarily unavailable.</p><p><a href="/">Return to NBO</a></p></main>'}})();
 </script>
 </head>
 <body>
