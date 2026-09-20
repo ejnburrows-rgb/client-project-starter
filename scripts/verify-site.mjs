@@ -1,5 +1,7 @@
 import { readFile } from 'node:fs/promises';
 
+const demo = await readFile('demo.html', 'utf8');
+
 const html = await readFile('index.html', 'utf8');
 const required = [
   '<title>NBO — Novo Business Order</title>',
@@ -7,7 +9,11 @@ const required = [
   'data-lang="en"',
   'data-lang="es"',
   'id="briefBtn"',
-  'LET YOUR WORK FLOW.'
+  'LET YOUR WORK FLOW.',
+  'Workflow Reset',
+  'Operations System Build',
+  'Bilingual AI Operations Layer',
+  'href="demo.html"'
 ];
 
 for (const marker of required) {
@@ -28,3 +34,8 @@ for (const marker of forbidden) {
 }
 
 console.log('NBO site verification passed.');
+
+const demoRequired = ['<title>NBO Operations Demo</title>', 'Interactive demo', 'Sample data', 'Needs attention'];
+for (const marker of demoRequired) {
+  if (!demo.includes(marker)) throw new Error(`Missing required NBO demo marker: ${marker}`);
+}
