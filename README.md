@@ -2,14 +2,13 @@
 
 NBO is a bilingual business-operations modernization company serving Miami-Dade and remote U.S. service businesses.
 
-The public offer is organized around four related operating-system services:
+The public offer is organized around three concrete engagements:
 
-- Workflow Modernization
-- Custom CRM + Operations Hub
-- Bilingual Customer Operations
-- Practical AI + Content Automation
+- **Workflow Reset** — fix one painful process and replace manual handoffs with one visible operating path.
+- **Operations System Build** — configure the reusable NBO CRM/operations hub around the client's real workflow.
+- **Bilingual AI Operations Layer** — add controlled AI for documents, English/Spanish drafting, QA, management visibility and human-approved content.
 
-The positioning is outcome-first: reduce administrative drag, connect scattered work, create one visible operating truth, and make English/Spanish execution consistent. NBO works around client-owned systems where practical rather than forcing unnecessary software replacement. AI is used for bounded work such as document extraction, summaries, drafting, QA, and human-reviewed bilingual content repurposing.
+The positioning is outcome-first: reduce administrative drag, connect scattered work, create one visible operating truth, and make English/Spanish execution consistent. NBO works around client-owned systems where practical rather than forcing unnecessary software replacement.
 
 ## Current website
 
@@ -17,7 +16,8 @@ The positioning is outcome-first: reduce administrative drag, connect scattered 
 - Mobile and desktop responsive layout
 - Dark executive NBO visual system
 - Founder-led positioning
-- Business Reset Review brief generator
+- Workflow Review brief builder
+- Public interactive operations demo using sample data only
 - No fake booking, contact-success, testimonials or customer results
 - Static deployment with no customer data stored by the site
 
@@ -46,7 +46,7 @@ pnpm run typecheck
 pnpm run build
 ```
 
-The build writes a deployable static site to `dist/`.
+The build writes the deployable website and interactive demo to `dist/`.
 
 ## Deployment
 
