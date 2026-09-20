@@ -14,22 +14,20 @@
 
 ## September 20, 2026 infrastructure positioning
 
-NBO is now positioned as a bilingual workflow-automation and custom operations-systems company. The public offer is:
+NBO is positioned as a bilingual workflow-automation and custom operations-systems company. The public offer is now packaged into three concrete engagements:
 
-1. **Workflow Modernization** — intake, routing, forms, files, handoffs, SOPs, checklists and deterministic follow-up.
-2. **Custom CRM + Operations Hub** — role-based owner/manager/staff views, contacts, work pipeline, tasks, files, imports, dashboards, reporting and activity history.
-3. **Bilingual Customer Operations** — English/Spanish intake, portals, website flows, messages, estimates, FAQs, forms and internal handoffs.
-4. **Practical AI + Content Automation** — bounded document extraction, summaries, drafting, QA, and human-reviewed English/Spanish website, email and social drafts.
-
-The public value proposition is deliberately operations-first: less admin drag, one operating truth, bilingual execution by design, and AI under human control.
+1. **Workflow Reset** — map and fix one painful workflow with intake, routing, follow-up, SOP/checklist and bilingual touchpoints.
+2. **Operations System Build** — configure the reusable NBO operations hub with role-based views, contacts/leads/work/tasks/files, deterministic Needs Attention, activity history, imports, reporting and backup.
+3. **Bilingual AI Operations Layer** — add controlled AI for document extraction, summaries, English/Spanish drafting, QA, management visibility and human approval queues.
 
 ## Verified implementation
 
-- Root `index.html` updated with the new NBO positioning and offers.
+- Root `index.html` updated with the three packaged NBO offers and a direct interactive-demo path.
+- `demo.html` added as a public sample-data demonstration of the reusable NBO operations core.
 - Temporary `nbo-website/index.html` compatibility copy synchronized to the exact same Git blob.
 - English/Spanish parity preserved for every changed public section.
 - Marketing-content automation is framed as reviewed drafting/repurposing, not autonomous prospecting or spam.
-- Existing Business Reset Review remains non-deceptive: it copies a brief and does not fake a contact submission or booking.
+- Workflow Review collects the business, website, workflow problem and current tools, then creates a ready-to-send clipboard brief without faking a submission or booking.
 - Production Vercel wrapper remains live and fetches the current nested `main/nbo-website/index.html` at runtime.
 
 ## CRM infrastructure work
