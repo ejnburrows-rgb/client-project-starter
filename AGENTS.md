@@ -20,3 +20,10 @@ NBO — Novo Business Order. Public bilingual workflow-automation website.
 ## Current source
 
 The root `index.html` is canonical for the next full deployment. The current Vercel production wrapper still fetches `nbo-website/index.html`, so keep that nested file synchronized until a replacement deployment is verified.
+
+## GITHUB ACCOUNT LIMITS
+
+- EJN uses a free GitHub account and does not have GitHub Actions available.
+- Do not depend on GitHub Actions, required CI checks, or hosted Actions runners to complete or verify work.
+- Use direct verification, local/sandbox testing, or other available tools instead.
+- Do not recommend upgrading GitHub solely to enable Actions unless EJN explicitly asks about paid options.
